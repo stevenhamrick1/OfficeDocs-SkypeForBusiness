@@ -46,7 +46,7 @@ To create a QoS audio policy for domain-joined Windows 10 computers, first log o
 
 1. Right-click the newly created policy, and then click **Edit**.
 
-1. In the Group Policy Management Editor, expand **Computer Configuration**, expand **Windows Settings**, right-click **Policy-based QoS**, and then click **Create new policy**.
+1. In the Group Policy Management Editor, expand **Computer Configuration**, expand **Windows Settings**, expand **Policies**, right-click **Policy-based QoS**, and then click **Create new policy**.
 
 1. In the **Policy-based QoS** dialog box, on the opening page, type a name for the new policy in the **Name** box. Select **Specify DSCP Value** and set the value to **46**. Leave **Specify Outbound Throttle Rate** unselected, and then click **Next**.
 
